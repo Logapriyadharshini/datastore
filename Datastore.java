@@ -105,7 +105,7 @@ public static void main(String[] args)
 {  
 	File file=new File("d://jsonfile.txt");
 	long filesize=file.length();
-    Main obj=new Main();
+    Datastore obj=new Datastore();
     System.out.println("Enter create,write,read or  to delete the file");
 	Scanner s=new Scanner(System.in);
 	String a=s.next();
